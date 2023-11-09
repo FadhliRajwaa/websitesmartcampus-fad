@@ -1,0 +1,180 @@
+@media screen and (max-width: 768px) {
+    .navbar-toggler {
+        background-color: rgb(65, 225, 78);
+        color: rgb(168, 168, 168);
+        margin: auto;
+
+    }
+
+    .navbar-toggler:hover {
+        background-color: crimson;
+    }
+
+    .navbar-nav {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-item {
+        padding-bottom: 7px;
+    }
+
+    /* Di dalam file "src/css/mobile.css" atau di dalam tag <style> di dalam elemen <head> */
+    .navbar-toggler.custom-toggler {
+        color: #ffffff;
+        /* Ganti dengan kode warna yang Anda inginkan */
+        font-weight: 600;
+    }
+
+
+
+    .Gambar {
+        width: 250px;
+    }
+
+    .portfolio-item {
+        padding: 20px;
+    }
+
+    @media (max-width: 768px) {
+
+        /* Header Styles for Mobile */
+        header {
+            padding-top: 50px;
+            padding-bottom: 30px;
+        }
+
+        header img {
+            margin: 0 auto 10px;
+        }
+
+        header .intro-text .name {
+            font-size: 1.5em;
+        }
+
+        header .intro-text .skills {
+            font-size: 1em;
+        }
+
+        /* About Section Styles for Mobile */
+        .about-unisbank {
+            padding: 50px 10px;
+        }
+
+        .garis-section-2 {
+            width: 15%;
+        }
+
+        .about-unisbank .container {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        /* Footer Styles for Mobile */
+        .logo-footer {
+            margin: 0 auto 10px;
+            max-width: 100%;
+        }
+
+        .kumpulan-ikon {
+            margin: 0 auto 10px;
+            flex-wrap: wrap;
+            /* Mengatur agar ikon wrap ke baris berikutnya saat lebar terlalu kecil */
+        }
+
+        .paragraf-footer {
+            padding: 10px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+
+    /* Header Styles for Mobile */
+    header {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+
+    header img {
+        margin: 0 auto 10px;
+    }
+
+    header .intro-text .name {
+        font-size: 1.5em;
+    }
+
+    header .intro-text .skills {
+        font-size: 1em;
+    }
+
+    /* About Section Styles for Mobile */
+    .about-unisbank {
+        padding: 50px 10px;
+    }
+
+    .garis-section-2 {
+        width: 15%;
+    }
+
+    .about-unisbank .container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    /* Footer Styles for Mobile */
+    .logo-footer {
+        margin: 0 auto 10px;
+        max-width: 100%;
+    }
+
+    .kumpulan-ikon {
+        margin: 0 auto 10px;
+        flex-wrap: wrap;
+        /* Mengatur agar ikon wrap ke baris berikutnya saat lebar terlalu kecil */
+    }
+
+
+    .lokasi-footer {
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .paragraf-footer {
+        padding: 10px;
+    }
+
+    body {
+        overflow-x: hidden;
+        /* Mencegah overflow horizontal */
+        width: 100%;
+        /* Memastikan lebar body sesuai dengan lebar layar */
+    }
+
+    .text-atas {
+        margin-right: 530px;
+        padding-top: 230px;
+    }
+
+}
+@media (max-width: 768px) {
+    /* Gaya lainnya untuk tampilan ponsel... */
+
+
+    .kumpulan-ikon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto 10px;
+        margin-right: 500px;
+    }
+
+    .kumpulan-ikon .ikon {
+        width: 40px;
+        height: 40px;
+        margin: 5px; /* Jarak antara ikon-ikon */
+    }
+    
+}

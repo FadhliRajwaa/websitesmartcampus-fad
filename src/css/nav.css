@@ -1,0 +1,32 @@
+/* Ini adalah CSS untuk item menu navbar */
+.nav-item {
+  position: relative;
+  transition: opacity 0.3s; /* Menerapkan transisi efek opacity selama 0.3 detik saat ada perubahan */
+}
+
+.nav-item:hover {
+  background-color: rgb(42, 165, 73);
+  border-radius: 10px;
+}
+
+/* Ini adalah pseudo-element (::before) untuk garis bawah */
+.nav-item::before {
+  content: ""; /* Membuat elemen pseudo tanpa konten */
+  position: absolute; /* Menempatkan elemen pseudo dalam posisi absolut relatif terhadap .nav-item */
+  bottom: -10px; /* Meletakkan elemen pseudo di bagian bawah .nav-item */
+  left: 0; /* Meletakkan elemen pseudo di sebelah kiri .nav-item */
+  width: 100%; /* Mengisi seluruh lebar .nav-item */
+  height: 2px; /* Menentukan tinggi garis bawah */
+  background-color: #6eb300; /* Warna garis bawah */
+  opacity: 0; /* Mengatur opacity awal elemen pseudo menjadi 0, sehingga tidak terlihat */
+  transition: opacity 0.3s ease-in-out; /* Menerapkan transisi efek opacity selama 0.3 detik dengan efek ease-in-out */
+}   
+
+/* Ini adalah aturan saat kursor mouse mengarah ke .nav-item (hover) */
+.nav-item:hover::before {
+  opacity: 1; /* Mengubah opacity elemen pseudo menjadi 1 saat menghover .nav-item, sehingga garis bawah muncul dengan efek fade in */
+}
+
+
+
+

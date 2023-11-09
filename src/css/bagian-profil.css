@@ -1,0 +1,174 @@
+#video-container {
+    position: relative;
+  }
+
+  #video-background {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+  }
+
+  hr {
+    border-width: 3px;
+    background-color: black;
+  }
+
+
+
+  .nav-link {
+    transition: background-color 0.3s, border-radius 0.3s,
+      text-decoration 0.3s, text-decoration-color 0.3s,
+      text-underline-offset 0.3s;
+  }
+
+  .navbar-toggler {
+    color: wheat;
+    background-color: royalblue;
+  }
+
+  .card-img-top {
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 400px;
+  }
+
+  .card {
+    background-color: rgba(220, 220, 220, 0.233);
+  }
+
+  .card:hover {
+    background-color: rgba(210, 30, 30, 0.384);
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .button-1 {
+    background-color: rgba(37, 243, 106, 0.87);
+    color: rgb(255, 255, 255);
+    border-color: rgb(0, 0, 0);
+    margin-left: 150px;
+    font-family: cursive;
+    font-weight: 600;
+    border-radius: 15px;
+    margin-left: 380px;
+    width: 200px;
+    height: 50px;
+    scroll-behavior: smooth;
+  }
+
+  .button-1:hover {
+    background-color: firebrick;
+    transform: translateY(-5px);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .ini-data {
+    text-align: center;
+    margin-right: 30px;
+    color: white;
+    font-weight: 700;
+  }
+
+  .khusus-mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+  }
+
+  .biodata {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .biodata:hover {
+    background-color: rgb(49, 115, 238);
+  }
+
+  .red-text {
+    font-weight: 700;
+    color: red;
+  }
+
+  .form-group {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    background-color: rgba(214, 214, 214, 0.288);
+  }
+
+  .form-group .form-label {
+    flex: 0 0 100px;
+    /* Atur lebar label sesuai kebutuhan */
+    margin-right: 10px;
+  }
+
+  .form-group .form-control {
+    flex: 1;
+  }
+
+  .btn:hover {
+    background-color: rgb(255, 238, 0);
+    color: black;
+  }
+
+  #flexSwitchCheckDefault:checked + .form-check-label {
+    font-weight: 700;
+    color: white;
+    transition: font-weight 0.3s, color 0.3s;
+  }
+
+  .form-control:focus {
+    transform: scale(1.02);
+    transition: transform 0.2s ease-in-out;
+  }
+
+  @media screen and (max-width: 768px) {
+    /* CSS untuk layar kecil di sini */
+
+    .navbar-toggler {
+      background-color: rgb(65, 225, 78);
+    }
+
+    .card-img-top {
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 20px;
+      margin-top: 20px;
+    }
+
+    .card {
+      background-color: rgba(220, 220, 220, 0.233);
+      margin: 20px;
+    }
+
+    .button-1 {
+      margin-left: 50px;
+      margin-right: auto;
+      width: 150px;
+      height: 50px;
+      font-weight: 600;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .ini-data {
+      text-align: center;
+      margin-right: 20px;
+    }
+
+    .khusus-mobile {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 20px;
+    }
+
+    .darkMode {
+      margin-left: -55px;
+    }
+  }

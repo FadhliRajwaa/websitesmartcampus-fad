@@ -1,0 +1,139 @@
+body {
+    background: linear-gradient(135deg, #3494e6, #ec6ead, #3494e6, #ec6ead, #3494e6);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0%, 100% {
+        background-position: 0 0;
+    }
+
+    25% {
+        background-position: 100% 0;
+    }
+
+    50% {
+        background-position: 100% 100%;
+    }
+
+    75% {
+        background-position: 0 100%;
+    }
+}
+
+
+
+
+
+table {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #f5f5f5;
+    /* Warna latar belakang tabel */
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.mahasiswa-info {
+    width: 60%;
+    background-color: #fff;
+    border-radius: 10px;
+    /* Menambahkan border radius pada elemen dengan kelas mahasiswa-info */
+}
+
+
+table, th, td {
+    border: 2px solid #000;
+    /* Garis tabel tebal */
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+.mahasiswa-info {
+    width: 60%;
+    background-color: #fff;
+    /* Warna latar belakang informasi mahasiswa */
+}
+
+.mahasiswa-foto {
+    width: 40%;
+    text-align: center;
+    background-color: #fff;
+    /* Warna latar belakang foto mahasiswa */
+    transition: background-color 0.3s;
+}
+
+.mahasiswa-foto:hover {
+    background-color: #e0e0e0;
+    /* Warna latar belakang foto saat dihover */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.foto-mhs {
+    border-radius: 10px;
+}
+
+.garis-informasi {
+    border: 2px solid black;
+    width: 40%;
+}
+
+.paragraf-info {
+    font-size: medium;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table:hover {
+    background-color: #e0e0e0;
+    /* Warna latar belakang tabel saat dihover */
+}
+
+.button-logout {
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan;
+    padding: 10px 20px;
+    /* Menambahkan padding untuk membuat tombol lebih besar */
+    border-radius: 10px;
+    /* Menambahkan border radius */
+    background-color: chocolate;
+    font-size: larger;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.button-logout:hover {
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan;
+    padding: 12px 24px;
+    /* Menambahkan padding saat tombol dihover */
+}
+
+
+/* CSS untuk tampilan mobile */
+@media (max-width: 767px) {
+
+    .badan {
+        padding: 70px 0 ;
+    }
+    table {
+        max-width: 100%; /* Mengisi lebar layar penuh pada perangkat mobile */
+    }
+
+    .mahasiswa-info, .mahasiswa-foto {
+        width: 100%; /* Mengisi lebar layar penuh pada perangkat mobile */
+        margin: 0;
+        padding: 10px;
+    }
+
+    .mahasiswa-foto {
+        background-color: transparent; /* Hapus latar belakang warna pada foto mahasiswa */
+    }
+}

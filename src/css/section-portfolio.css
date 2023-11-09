@@ -1,0 +1,125 @@
+.garis-section-1 {
+    padding: 0;
+    border: 3px solid black;
+    text-align: center;
+    max-width: 250px;
+    margin: 25px auto 30px;
+    width: 30%;
+}
+
+/* Tambahkan margin di sekitar kotak gambar */
+.garis-section-1 {
+    margin: 25px; /* Atur margin atas, bawah, kanan, dan kiri */
+}
+
+/* Tambahkan lebar dan margin yang lebih besar pada kotak gambar */
+.garis-section-1 {
+    width: 40%; /* Atur lebar lebih besar */
+    margin: 40px; /* Atur margin lebih besar */
+}
+
+.portfolio-item {
+    opacity: 1;
+}
+
+/* Efek hover pada portfolio-item */
+.portfolio-item:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Ganti angka alpha (0.4) sesuai dengan tingkat transparansi yang Anda inginkan saat dihover */
+    transition: background-color 0.3s;
+}
+
+
+
+
+.fullscreen-description {
+    display: none;
+}
+
+/* Menyusun ikon pencarian di tengah kotak gambar */
+.portfolio-image {
+    position: relative;
+    opacity: 50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.fas.fa-search {
+    display: none; /* Sembunyikan ikon pencarian secara default */
+}
+
+.portfolio-item {
+    position: relative; /* Membuat kontainer .portfolio-item relatif */
+    overflow: hidden; /* Menyembunyikan konten yang mungkin keluar dari kotak gambar */
+}
+
+.portfolio-item .fas.fa-search {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 36px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 255, 255, 0.753);
+    z-index: -1; /* Mengatur z-index untuk mengirimkan ikon di bawah konten lain */
+}
+
+.portfolio-item:hover .fas.fa-search {
+    z-index: 1; /* Mengatur z-index untuk menempatkan ikon di atas konten lain saat dihover */
+    background-color: rgba(200, 255, 0, 0.89);
+}
+
+
+
+
+/* Menampilkan deskripsi gambar dalam mode layar penuh */
+.fullscreen-description {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(8, 0, 0);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    z-index: 999;
+}
+
+.fullscreen-description.active {
+    display: flex;
+}
+
+/* Mengatur ikon silang agar lebih besar dan teks serta ikonnya menjadi putih */
+.fas.fa-times.close-description {
+    font-size: 50px;
+    /* Atur ukuran ikon silang sesuai kebutuhan */
+    color: white;
+    /* Atur warna ikon silang menjadi putih */
+}
+
+.description-content {
+    color: white;
+    /* Atur warna teks deskripsi menjadi putih */
+}
+
+/* CSS untuk image-box */
+.image-box {
+    text-align: center;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.685);
+}
+
+.image-box img {
+    max-width: 50%;
+}

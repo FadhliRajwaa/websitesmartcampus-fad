@@ -1,0 +1,47 @@
+/* style.css */
+/* Animasi saat hover */
+table.custom-table tbody tr:hover {
+    background-color: #f5f5f5;
+    transition: background-color 0.3s;
+}
+
+/* Animasi saat menggeser baris */
+table.custom-table tbody tr {
+    transition: transform 0.3s;
+}
+
+table.custom-table tbody tr:hover {
+    transform: scale(1.02);
+}
+
+/* Ganti warna header tabel */
+table.custom-table thead {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+/* Ganti warna teks header saat hover */
+table.custom-table thead th:hover {
+    background-color: #0056b3;
+}
+
+/* Ganti warna teks pada sel yang dihover */
+table.custom-table tbody tr:hover td {
+    color: #333;
+}
+
+/* Ganti warna latar belakang sel yang dihover */
+table.custom-table tbody tr:hover td {
+    background-color: #fff;
+}
+
+.garis-jadwal {
+    border: 3px solid black;
+    width: 20%;
+}
+
+/* Jadwal-kuliah.css atau style.css */
+.red-text {
+    color: red;
+    /* Mengubah warna teks menjadi merah */
+}

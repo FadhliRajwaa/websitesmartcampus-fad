@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <title>Informasi</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+  <!-- Bootstrap CSS END -->
+
+  <link rel="stylesheet" href="src/css/nav.css" />
+  <link rel="stylesheet" href="src/css/mobile.css" />
+  <link rel="stylesheet" href="src/css/informasi.css">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-dark sticky-top">
+    <div class="container">
+      <!-- Tombol hamburger untuk tampilan mobile -->
+      <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        Menu
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Tombol hamburger untuk tampilan mobile END -->
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto p-2 fw-bold fs-6">
+          <li class="nav-item mx-2">
+            <a class="text-light nav-link active" aria-current="page" href="index.html">Beranda</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="text-light nav-link active" aria-current="page" href="Profile.html">Profile Mahasiswa</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="text-light nav-link active" aria-current="page" href="Jadwal.html">Jadwal Kuliah</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="text-light nav-link active" aria-current="page" href="#">Informasi</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Navbar END -->
+  <div class="badan">
+
+
+    <h1 class="fs-2 fw-bold m-5 text-center">Informasi Mahasiswa</h1>
+    <table>
+      <tr>
+        <td class="mahasiswa-info">
+          <h2 class="fs-4 fw-bold">HALO MAHASISWA, FADHLI RAJWAA RAHMANA</h2>
+          <hr class="garis-informasi">
+          <br>
+          <p class="paragraf-info">
+            NIM:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;22.01.53.0045 </p>
+          <p class="paragraf-info">Nama:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FADHLI RAJWAA RAHMANA</p>
+          <p class="paragraf-info">
+            Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fadhlirajwaarahmana@gmail.com</p>
+          <p class="paragraf-info">Fakultas:&nbsp;&nbsp;&nbsp;&nbsp;TEKNOLOGI INFORMASI DAN INDUSTRI</p>
+          <p class="paragraf-info">Prodi:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Teknik Informatika</p>
+          <p class="paragraf-info">Dosen Wali:&nbsp;R. SOELISTIJADI, S.SOS, M.KOM</p>
+        </td>
+        <td class="mahasiswa-foto">
+          <img class="foto-mhs" src="src/img/Foto-1.jpeg" alt="Foto Mahasiswa" width="150px">
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <button class="button-logout" type="button">Logout</button>
+        </td>
+      </tr>
+  </div>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

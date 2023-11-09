@@ -1,0 +1,41 @@
+.garis {
+  border-color: #ffffff;
+  border-width: 5px;
+  padding: 0;
+  border: none;
+  border-top-style: solid ;
+  text-align: center;
+  max-width: 250px;
+  margin: 25px auto 30px;
+}
+
+
+.img-centered {
+  margin: 0 auto;
+}
+
+header {
+  text-align: center;
+  background: #bc1818;
+  color: white;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+header img {
+  display: block;
+  margin: 0 auto 20px;
+}
+
+header .intro-text .name {
+  display: block;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 2em;
+}
+
+header .intro-text .skills {
+  font-size: 1.25em;
+  font-weight: 500;
+}

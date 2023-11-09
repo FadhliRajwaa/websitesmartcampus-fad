@@ -1,0 +1,33 @@
+.about-unisbank {
+    background: rgb(34, 194, 194);
+    color: white;
+    padding: 200px 0;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.garis-section-2 {
+    border: 4px solid rgb(255, 255, 255);
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-unisbank .container {
+    text-align: center;
+}
+
+.about-unisbank .bagian-bawah {
+    justify-content: center;
+    /* Ini untuk mengatur paragraf berada di tengah */
+    margin-top: 10px;
+    /* Ini untuk memberikan jarak di atas paragraf */
+    font-size: large;
+    font-weight: 600;
+}
+
+.about-unisbank p {
+    margin: 10px 0;
+    /* Ini untuk memberikan jarak di atas dan di bawah paragraf */
+}

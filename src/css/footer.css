@@ -1,0 +1,48 @@
+.logo-footer {
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+.text-atas {
+    margin-left: 500px;
+    margin-top: -200px;
+}
+
+.kumpulan-ikon {
+    margin-left: 500px;
+    margin-top: 50px;
+    display: flex; /* Menyusun ikon dalam satu baris */
+}
+
+.kumpulan-ikon .ikon {
+    font-size: 40px; /* Atur ukuran ikon sesuai keinginan */
+    color: #007BFF; /* Ganti warna ikon sesuai keinginan (contoh: biru) */
+    border-radius: 50%; /* Membuat lingkaran pada ikon */
+    background-color: #FFFFFF; /* Ganti warna latar belakang lingkaran (contoh: putih) */
+    width: 60px; /* Atur lebar ikon */
+    height: 60px; /* Atur tinggi ikon */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px; /* Jarak antara ikon */
+    transition: background-color 0.3s, color 0.3s; /* Efek transisi ketika dihover */
+}
+
+.kumpulan-ikon .ikon:hover {
+    color: #FFFFFF; /* Ganti warna ikon saat dihover (contoh: putih) */
+    background-color: #007BFF; /* Ganti warna latar belakang lingkaran saat dihover (contoh: biru) */
+}
+
+footer {
+    background-color: rgba(50, 59, 59, 0.877);
+    padding: 50px 0;
+}
+
+.lokasi-footer {
+    margin-left: 900px;
+    margin-top: -180px;
+}
+
+.paragraf-footer {
+    padding: 20px;
+}
